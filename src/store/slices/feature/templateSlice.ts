@@ -26,6 +26,6 @@ export const templateSlice = createSlice({
   },
 });
 
-export const { action } = templateSlice.actions;
+export const { action, actionWithValue, actionWithPrepare } = templateSlice.actions;
 
 export default templateSlice.reducer;
